@@ -10,6 +10,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,9 +19,65 @@
     <!-- header -->
     <div class="row">
       <div class="col-12 text-center">
-        <div class="incon-img">
-          <img src="images-removebg-preview.png" alt="logo">
+        <div class="main-head">
+          <img src="images-removebg-preview.png" alt="logo" style="width: 70px; height: 65px;">
+          <h2>Checkout form</h2>
+          <p> Below is an example form built entirely with Bootstrap's form controls. Each required form group has a
+            validation state that can be triggered by attempting to submit the form without completing it</p>
         </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- first col ma billing address  -->
+      <div class="col-lg-7">
+        <h4 class="mb-4">Billing address</h4>
+
+        <!-- first name @ last name -->
+        <div class="row ">
+          <div class="col-md-6">
+            <label class="label-custom">First name</label>
+            <input type="text" class="form-control-custom" required>
+          </div>
+          <div class="col-md-6">
+            <label class="label-custom">Last name</label>
+            <input type="text" class="form-control-custom" required>
+          </div>
+        </div>
+
+        <!-- user name -->
+        <div class="row ">
+          <div class="col-md-6">
+            <label class="label-custom">username</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">@</span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="row">
+          <div class="col-md-6">
+            <label class="label-custom">email<span class="text-muted">(Optional)</span></label></label>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="abc@123.email.com">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- adreess -->
+        <div class="row">
+          <div class="col-md-6">
+            <label class="label-custom">Address</label>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="1234 main st">
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
