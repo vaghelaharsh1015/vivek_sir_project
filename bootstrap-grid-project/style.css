@@ -20,3 +20,11 @@ body {
 .col-md-6 label {
   font-size: 20px;
 }
+
+.btn{
+  width: 750px;
+}
+
+.div input {
+  width: 750px;
+}
