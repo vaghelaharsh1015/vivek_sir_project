@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: azure;
+  background-color: whitesmoke;
 }
 
 .row {
@@ -21,10 +21,10 @@ body {
   font-size: 20px;
 }
 
-.btn{
+.btn {
   width: 750px;
 }
 
-.div input {
-  width: 750px;
+.card {
+  height: 110%;
 }
