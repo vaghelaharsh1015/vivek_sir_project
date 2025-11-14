@@ -1,0 +1,71 @@
+* {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Navbar */
+
+body {
+  background-color: #ecf2ff;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.556);
+}
+
+.btn {
+  background-color: #0b1ae9;
+}
+
+/* Hero Section */
+
+.award p span svg {
+  color: #ffd700;
+  margin-right: 5px;
+  /* fill: #ffd700; */
+}
+
+.award p {
+  border: 1px solid #ced1fb;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.hero .row .mt-5 {
+  margin-top: 80px !important;
+}
+
+.head-text h1 {
+  color: #242859;
+  font-weight: 600;
+}
+
+.head-para {
+  color: rgba(0, 0, 0, 0.584);
+  font-size: 18px;
+}
+
+.award-trophy div span svg {
+  width: 30px;
+  height: 100%;
+}
+
+.award-trophy {
+  width: 200px;
+}
+
+.head-card {
+  height: 50px;
+  width: 50px;
+  background-color: #e6e8fc;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
