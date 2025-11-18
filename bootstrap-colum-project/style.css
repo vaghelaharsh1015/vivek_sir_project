@@ -1,6 +1,7 @@
 body {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
+  background-color: aliceblue;
 }
 .nav-item a {
   color: black;
@@ -8,7 +9,13 @@ body {
 
 .btn {
   background-color: blue;
-  /* background: color-mix(in srgb, var(--accent-color), transparent 15%); */
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  border: 1px solid black;
 }
 
 .navbar-brand {
@@ -26,9 +33,33 @@ body {
   color: blue;
 }
 
+.award-trophy {
+  width: 220px;
+}
+
+.award-trophy .logo {
+  width: 45px;
+  height: 45px;
+  background: #eef0ff;
+  border-radius: 12px;
+  font-size: 20px;
+  color: #3b57ff;
+}
+
 .award {
   border: 1px solid black;
 }
 .award span {
   color: yellowgreen;
+}
+
+.col-8 h1 {
+  font-weight: bolder;
+  font-size: 64px;
+  color: #242859;
+}
+
+.col-5 p {
+  color: grey;
+  font-size: 18px;
 }
