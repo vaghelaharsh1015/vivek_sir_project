@@ -16,6 +16,7 @@ body {
 .btn:hover {
   background-color: aliceblue;
   border: 1px solid black;
+  color: black;
 }
 
 .navbar-brand {
