@@ -44,8 +44,8 @@ body {
 /* Logo bubble */
 .logo-bubble {
   background: #fff;
-  border-radius: 0 0 60px 60px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  /* border-radius: 0 0 60px 60px; */
+  /* box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1); */
   padding: 6px 28px 14px;
   text-align: center;
   position: relative;
